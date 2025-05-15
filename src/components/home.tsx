@@ -40,51 +40,51 @@ const Home = () => {
             <div className="bg-background rounded-xl border p-6 shadow-sm">
               <div className="mb-4">
                 <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary">
-                  Fintech
+                  Government
                 </span>
               </div>
-              <h3 className="text-xl font-bold mb-2">PayQuick</h3>
+              <h3 className="text-xl font-bold mb-2">Fyuell</h3>
               <p className="text-muted-foreground mb-4">
-                Helped build an MVP payment platform in just 6 weeks, leading to
-                successful seed round.
+                Government Fuel management system to help curb fuel fraud for
+                over 10,000 vehicles.
               </p>
               <div className="flex items-center justify-between">
-                <span className="text-sm font-medium">4 week MVP</span>
-                <span className="text-sm font-medium">$2M raised</span>
+                <span className="text-sm font-medium">6 week MVP</span>
+                <span className="text-sm font-medium">10k+ vehicles</span>
               </div>
             </div>
 
             <div className="bg-background rounded-xl border p-6 shadow-sm">
               <div className="mb-4">
                 <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary">
-                  Health Tech
+                  PropTech
                 </span>
               </div>
-              <h3 className="text-xl font-bold mb-2">MediTrack</h3>
+              <h3 className="text-xl font-bold mb-2">Realtyplus</h3>
               <p className="text-muted-foreground mb-4">
-                Built patient management platform with HIPAA compliance in
-                record time.
+                An AI powered proptech platform servicing the African market
+                with innovative solutions.
               </p>
               <div className="flex items-center justify-between">
                 <span className="text-sm font-medium">8 week MVP</span>
-                <span className="text-sm font-medium">10k+ users</span>
+                <span className="text-sm font-medium">Regional impact</span>
               </div>
             </div>
 
             <div className="bg-background rounded-xl border p-6 shadow-sm">
               <div className="mb-4">
                 <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary">
-                  E-commerce
+                  Public Safety
                 </span>
               </div>
-              <h3 className="text-xl font-bold mb-2">ShopSmart</h3>
+              <h3 className="text-xl font-bold mb-2">Echosos</h3>
               <p className="text-muted-foreground mb-4">
-                Developed a marketplace platform with integrated payment
-                processing.
+                A police app helping to address GBV with anonymous reporting
+                functions and 24/7 support.
               </p>
               <div className="flex items-center justify-between">
-                <span className="text-sm font-medium">12 week MVP</span>
-                <span className="text-sm font-medium">$1.5M GMV</span>
+                <span className="text-sm font-medium">10 week MVP</span>
+                <span className="text-sm font-medium">Critical service</span>
               </div>
             </div>
           </div>
@@ -364,7 +364,5 @@ const Home = () => {
     </div>
   );
 };
-
-export default Home;
 
 export default Home;
