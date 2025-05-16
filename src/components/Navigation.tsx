@@ -101,7 +101,7 @@ const Navigation = () => {
               Home
             </a>
             <a
-              onClick={() => scrollToSection("services")}
+              onClick={() => scrollToSection("mvp-calculator")}
               className="text-lg font-medium hover:text-primary cursor-pointer"
             >
               Services

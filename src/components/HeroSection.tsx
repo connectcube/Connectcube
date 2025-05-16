@@ -135,6 +135,12 @@ const HeroSection = ({
               <Button
                 size="lg"
                 variant="outline"
+                onClick={() => {
+                  const element = document.getElementById("credibility");
+                  if (element) {
+                    element.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
                 className="border-gray-300 text-black hover:bg-gray-100 px-8 py-6 text-lg rounded-md transition-all duration-300"
               >
                 View Our Work
