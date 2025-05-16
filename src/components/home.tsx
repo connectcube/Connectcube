@@ -23,7 +23,10 @@ const Home = () => {
       </section>
 
       {/* Credibility Section */}
-      <section className="py-20 px-4 md:px-8 lg:px-16 bg-muted/10">
+      <section
+        id="credibility"
+        className="py-20 px-4 md:px-8 lg:px-16 bg-muted/10"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">

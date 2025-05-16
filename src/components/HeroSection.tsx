@@ -39,8 +39,9 @@ const HeroSection = ({
 
   return (
     <section
+      id="home"
       ref={ref}
-      className="relative w-full min-h-[700px] bg-white flex items-center justify-center overflow-hidden pt-24"
+      className="relative w-full min-h-[700px] bg-white flex items-center justify-center overflow-hidden pt-32"
     >
       {/* Content */}
       <div className="container mx-auto px-4 z-10">
