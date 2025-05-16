@@ -39,8 +39,9 @@ const HeroSection = ({
 
   return (
     <section
+      id="home"
       ref={ref}
-      className="relative w-full min-h-[700px] bg-white flex items-center justify-center overflow-hidden"
+      className="relative w-full min-h-[700px] bg-white flex items-center justify-center overflow-hidden pt-32"
     >
       {/* Content */}
       <div className="container mx-auto px-4 z-10">
@@ -134,6 +135,12 @@ const HeroSection = ({
               <Button
                 size="lg"
                 variant="outline"
+                onClick={() => {
+                  const element = document.getElementById("credibility");
+                  if (element) {
+                    element.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
                 className="border-gray-300 text-black hover:bg-gray-100 px-8 py-6 text-lg rounded-md transition-all duration-300"
               >
                 View Our Work

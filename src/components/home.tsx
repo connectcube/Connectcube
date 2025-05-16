@@ -4,12 +4,15 @@ import MVPCalculator from "./MVPCalculator";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-gradient-to-b from-white to-blue-100">
       {/* Hero Section */}
       <HeroSection />
 
       {/* MVP Calculator Section */}
-      <section className="py-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
+      <section
+        id="mvp-calculator"
+        className="py-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto"
+      >
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             How Fast Could We Build Your MVP?
@@ -23,7 +26,10 @@ const Home = () => {
       </section>
 
       {/* Credibility Section */}
-      <section className="py-20 px-4 md:px-8 lg:px-16 bg-muted/10">
+      <section
+        id="credibility"
+        className="py-20 px-4 md:px-8 lg:px-16 bg-muted/10"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -40,51 +46,51 @@ const Home = () => {
             <div className="bg-background rounded-xl border p-6 shadow-sm">
               <div className="mb-4">
                 <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary">
-                  Fintech
+                  Government
                 </span>
               </div>
-              <h3 className="text-xl font-bold mb-2">PayQuick</h3>
+              <h3 className="text-xl font-bold mb-2">Fyuell</h3>
               <p className="text-muted-foreground mb-4">
-                Helped build an MVP payment platform in just 6 weeks, leading to
-                successful seed round.
+                Government Fuel management system to help curb fuel fraud for
+                over 10,000 vehicles.
               </p>
               <div className="flex items-center justify-between">
-                <span className="text-sm font-medium">4 week MVP</span>
-                <span className="text-sm font-medium">$2M raised</span>
+                <span className="text-sm font-medium">6 week MVP</span>
+                <span className="text-sm font-medium">10k+ vehicles</span>
               </div>
             </div>
 
             <div className="bg-background rounded-xl border p-6 shadow-sm">
               <div className="mb-4">
                 <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary">
-                  Health Tech
+                  PropTech
                 </span>
               </div>
-              <h3 className="text-xl font-bold mb-2">MediTrack</h3>
+              <h3 className="text-xl font-bold mb-2">Realtyplus</h3>
               <p className="text-muted-foreground mb-4">
-                Built patient management platform with HIPAA compliance in
-                record time.
+                An AI powered proptech platform servicing the African market
+                with innovative solutions.
               </p>
               <div className="flex items-center justify-between">
                 <span className="text-sm font-medium">8 week MVP</span>
-                <span className="text-sm font-medium">10k+ users</span>
+                <span className="text-sm font-medium">Regional impact</span>
               </div>
             </div>
 
             <div className="bg-background rounded-xl border p-6 shadow-sm">
               <div className="mb-4">
                 <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary">
-                  E-commerce
+                  Public Safety
                 </span>
               </div>
-              <h3 className="text-xl font-bold mb-2">ShopSmart</h3>
+              <h3 className="text-xl font-bold mb-2">Echosos</h3>
               <p className="text-muted-foreground mb-4">
-                Developed a marketplace platform with integrated payment
-                processing.
+                A police app helping to address GBV with anonymous reporting
+                functions and 24/7 support.
               </p>
               <div className="flex items-center justify-between">
-                <span className="text-sm font-medium">12 week MVP</span>
-                <span className="text-sm font-medium">$1.5M GMV</span>
+                <span className="text-sm font-medium">10 week MVP</span>
+                <span className="text-sm font-medium">Critical service</span>
               </div>
             </div>
           </div>
@@ -160,8 +166,61 @@ const Home = () => {
         </div>
       </section>
 
+      {/* About Us Section */}
+      <section id="about" className="py-20 px-4 md:px-8 lg:px-16 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
+            About Us
+          </h2>
+          <p className="text-lg text-muted-foreground mb-6 max-w-3xl mx-auto text-center">
+            We are a diverse group of developers, designers, and engineers from
+            Southern Africa and South Asia working remotely to deliver
+            exceptional digital solutions. Our distributed team brings together
+            unique perspectives and expertise to create innovative products for
+            clients worldwide.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-3">Remote-First Culture</h3>
+              <p className="text-muted-foreground">
+                As a remote-first company, we've built a collaborative culture
+                that transcends borders. Our team works across multiple time
+                zones, ensuring continuous progress and diverse perspectives on
+                every project.
+              </p>
+            </div>
+
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-3">Proven Expertise</h3>
+              <p className="text-muted-foreground">
+                Our team includes senior developers with 10+ years of experience
+                building scalable applications. We've helped dozens of startups
+                successfully launch and scale their products in competitive
+                markets.
+              </p>
+            </div>
+
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-3">
+                Founder-Friendly Approach
+              </h3>
+              <p className="text-muted-foreground">
+                We understand the unique challenges founders face. Our
+                transparent communication, flexible engagement models, and focus
+                on business outcomes make us the ideal technical partner for
+                ambitious startups.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact CTA Section */}
-      <section className="py-20 px-4 md:px-8 lg:px-16 bg-primary/5">
+      <section
+        id="contact"
+        className="py-20 px-4 md:px-8 lg:px-16 bg-primary/5"
+      >
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Build Your Startup's MVP?
@@ -260,7 +319,7 @@ const Home = () => {
                   strokeLinejoin="round"
                   className="lucide lucide-github"
                 >
-                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                  <path d="M15 22v-4a4.8 4.8 0 0 1-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
                   <path d="M9 18c-4.51 2-5-2-7-2" />
                 </svg>
                 <span className="sr-only">GitHub</span>
@@ -364,7 +423,5 @@ const Home = () => {
     </div>
   );
 };
-
-export default Home;
 
 export default Home;
